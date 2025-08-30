@@ -1,11 +1,22 @@
 {
   "name": "electron-learning",
+  "productName": "Image Resizer",
   "version": "1.0.0",
-  "description": "Just studing a bit of electron before real application :)",
+  "description": "Just studing a bit of electron before real application :), \n Based on this video: https://www.youtube.com/watch?v=ML743nrkMHw&ab_channel=TraversyMedia",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaideNnigth/electron-learning"
+  },
   "author": "Gustavo Pereira",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^37.4.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
 }
