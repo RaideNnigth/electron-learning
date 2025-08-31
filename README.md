@@ -1,4 +1,3 @@
-````markdown
 # Electron Image Resizer (Learning Project)
 
 A simple desktop app built with **Electron** to quickly resize images.  
